@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
                    'having to directly deal with UITableViews, delegates and data sources. Fast ' \
                    'and efficient, you can create forms with multiple text fields, or with ' \
                    'thousands of items with no sweat!'
-
+  
+  s.frameworks = 'CoreLocation', 'MapKit'
+  
   s.source_files = 'quickdialog', 'extras', '*.{h,m}'
   s.requires_arc = true
 
